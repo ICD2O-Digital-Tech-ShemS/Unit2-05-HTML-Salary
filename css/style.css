@@ -1,4 +1,16 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Shem Irekpita
+* Created on: April 2025
 * This file contains the CSS for index.html
 */
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+    background-color: aqua;
+}
+form {
+    text-align: center;
+}

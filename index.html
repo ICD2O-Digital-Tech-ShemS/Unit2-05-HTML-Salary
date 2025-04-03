@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Address">
+    <meta name="keyword" content="Immaculata, ics2o">
+    <meta name="author" content="Shem Irekpita">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Unit2-05-HTML-Salary</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="./js/script.js"></script>
+    <h1>Fill in information to calculate amount of pay</h1>
+    <form action="javascript:enterClicked()">
+      <label for="hours-worked">Hours Worked :</label>
+      <input type="text" id="hours-worked" placeholder="hours worked">
+      <br>
+      <label for="hourly-rate">Hourly Rate : $</label>
+      <input type="text" id="hourly-rate" placeholder="hourly rate">
+      <br>
+    <button
+    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"onclick="calculate()">
+              Calculate
+            </button>
+    </form>
+    </button>
+    <div id="user-info">
+      <div id="money-earned"></div>
+       <div id="money-taken"></div>
+    </div>
   </body>
 </html>
